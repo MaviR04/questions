@@ -1,0 +1,53 @@
+body{
+    font-family: Montserrat;
+}
+#questionbox{
+    background-color: whitesmoke;
+    height: 100px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 22px;
+}
+
+.buttons button{
+    border: 0;
+    font-family:Poppins;
+    font-size: 18px;
+    background: skyblue;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 15px;
+}
+body{
+    display: grid;
+    place-content:center ;
+}
+
+.buttons{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+
+.correct{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.correct button{
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left:15px;
+    padding-right: 15px;
+    font-size: 15px;
+}
+
+.correct button:nth-child(1){
+    background: rgb(47, 255, 92);
+}
+
+.correct button:nth-child(2){
+    background: rgb(255, 47, 89);
+}
